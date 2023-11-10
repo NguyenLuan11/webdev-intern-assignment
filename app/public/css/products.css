@@ -1,0 +1,58 @@
+body {
+    background-color: bisque;
+}
+
+div.products_container {
+    width: 220px;
+    height: 550px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    float: left;
+}
+
+img.nike {
+    height: 18px;
+    width: 25px;
+    margin: 0;
+}
+
+img.img_product {
+    width: 200px;
+    height: 200px;
+}
+
+div.img_container, p.description_product {
+    width: 220px;
+    height: 200px;
+    padding: 0;
+}
+
+div.img_container {
+    background-color: lightgrey;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+}
+
+p.description_product {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+p.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+p.name_product {
+    font-weight: bold;
+    margin: 0;
+}
+
+button.add_cart {
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-left: 50%;
+}
